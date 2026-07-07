@@ -102,8 +102,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     material: '925 Sterling Silver',
     occasion: 'Party',
     images: [
-      'https://cdn.shopify.com/s/files/1/0613/1400/7297/files/Shopify_1bafdd10-84bb-4f17-bb3b-ffd4e860240a.jpg?v=1783334392',
-      'https://cdn.shopify.com/s/files/1/0613/1400/7297/files/ERS0113_00002_compressed.jpg?v=1782121339'
+      '/celeb_diamond.png',
+      '/diamond_necklace.png'
     ],
     rating: 4.9,
     reviewsCount: 42,
@@ -244,8 +244,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     material: '18K Gold Plated',
     occasion: 'Daily Wear',
     images: [
-      'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=600&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1543294001-f7cbfe92237e?q=80&w=600&auto=format&fit=crop'
+      '/celeb_pearl_anklet.png',
+      '/pearl_anklet.png'
     ],
     rating: 4.4,
     reviewsCount: 31,
@@ -272,8 +272,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     material: '925 Sterling Silver',
     occasion: 'Party',
     images: [
-      'https://images.unsplash.com/photo-1630019852942-f89202989a59?q=80&w=600&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1635767790038-33d964f2293b?q=80&w=600&auto=format&fit=crop'
+      '/celeb_emerald.png',
+      '/emerald_earrings.png'
     ],
     rating: 4.7,
     reviewsCount: 61,
@@ -310,8 +310,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     material: '18K Gold Plated',
     occasion: 'Office Wear',
     images: [
-      'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=600&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=600&auto=format&fit=crop'
+      'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?q=80&w=600&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=600&auto=format&fit=crop'
     ],
     rating: 4.7,
     reviewsCount: 22,
