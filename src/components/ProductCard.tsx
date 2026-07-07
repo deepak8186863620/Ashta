@@ -31,7 +31,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
     >
       {/* Image wrapper */}
       <div
-        className="img-zoom-wrap relative bg-gray-50"
+        className="img-zoom-wrap relative bg-gray-50 group/img"
         style={{ aspectRatio: '3/4' }}
         onClick={() => onViewDetails(product.id)}
       >
@@ -39,8 +39,16 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           src={product.images[0]}
           alt={product.name}
           referrerPolicy="no-referrer"
-          className="product-card-img w-full h-full object-cover"
+          className={`product-card-img w-full h-full object-cover transition-opacity duration-500 ease-in-out ${product.images.length > 1 ? 'group-hover/img:opacity-0' : ''}`}
         />
+        {product.images.length > 1 && (
+          <img
+            src={product.images[1]}
+            alt={`${product.name} on model`}
+            referrerPolicy="no-referrer"
+            className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover/img:opacity-100 transition-opacity duration-500 ease-in-out"
+          />
+        )}
 
         {/* Labels */}
         <div className="absolute top-2 left-2 flex flex-col gap-1">
