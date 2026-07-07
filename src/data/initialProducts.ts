@@ -102,8 +102,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     material: '925 Sterling Silver',
     occasion: 'Party',
     images: [
-      '/celeb_diamond.png',
-      '/diamond_necklace.png'
+      '/diamond_necklace.png',
+      '/celeb_diamond.png'
     ],
     rating: 4.9,
     reviewsCount: 42,
@@ -272,8 +272,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     material: '925 Sterling Silver',
     occasion: 'Party',
     images: [
-      '/celeb_emerald.png',
-      '/emerald_earrings.png'
+      '/emerald_earrings.png',
+      '/celeb_emerald.png'
     ],
     rating: 4.7,
     reviewsCount: 61,
@@ -310,8 +310,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     material: '18K Gold Plated',
     occasion: 'Office Wear',
     images: [
-      'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?q=80&w=600&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=600&auto=format&fit=crop'
+      'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?q=80&w=600&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?q=80&w=600&auto=format&fit=crop'
     ],
     rating: 4.7,
     reviewsCount: 22,
@@ -324,6 +324,118 @@ export const INITIAL_PRODUCTS: Product[] = [
       BaseMetal: 'Premium Stainless Steel',
       Gemstone: 'None',
       Warranty: 'Lifetime Tarnish-Free Warranty'
+    },
+    reviews: []
+  },
+  {
+    id: 'p10',
+    name: 'ASHTA Traditional Kundan Nath',
+    description: 'A beautifully crafted traditional Kundan nose ring (nath) featuring a delicate pearl chain that pins into the hair. Perfect for weddings and festive occasions.',
+    price: 899,
+    mrp: 1499,
+    discount: 40,
+    category: 'Nose Rings',
+    material: 'Gold Plated',
+    occasion: 'Festive Wear',
+    images: [
+      'https://images.unsplash.com/photo-1610694955371-d4a3e0ce4b52?q=80&w=600&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1630019852942-f89202989a59?q=80&w=600&auto=format&fit=crop'
+    ],
+    rating: 4.8,
+    reviewsCount: 34,
+    stock: 20,
+    isBestSeller: true,
+    isNewArrival: false,
+    specifications: {
+      Weight: '8 grams',
+      Size: 'Adjustable',
+      BaseMetal: 'Brass',
+      Gemstone: 'Kundan & Pearls',
+      Warranty: '6 Months Polish Warranty'
+    },
+    reviews: []
+  },
+  {
+    id: 'p11',
+    name: 'Diamond Micro-Pave Mangalsutra',
+    description: 'A modern take on the traditional mangalsutra, featuring a delicate black bead chain accented with a stunning micro-pave diamond pendant in 18K gold plating.',
+    price: 2499,
+    mrp: 4999,
+    discount: 50,
+    category: 'Mangalsutras',
+    material: '18K Gold Plated',
+    occasion: 'Daily Wear',
+    images: [
+      'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?q=80&w=600&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=600&auto=format&fit=crop'
+    ],
+    rating: 4.9,
+    reviewsCount: 156,
+    stock: 45,
+    isBestSeller: true,
+    isNewArrival: false,
+    specifications: {
+      Weight: '12 grams',
+      Length: '18 inches',
+      BaseMetal: 'Sterling Silver',
+      Gemstone: 'Cubic Zirconia',
+      Warranty: 'Lifetime Tarnish-Free Warranty'
+    },
+    reviews: []
+  },
+  {
+    id: 'p12',
+    name: 'Royal Kundan Maang Tikka',
+    description: 'Make a royal statement with this oversized Kundan maang tikka, encrusted with brilliant stones and trimmed with tiny freshwater pearls.',
+    price: 1299,
+    mrp: 2599,
+    discount: 50,
+    category: 'Head Jewelry',
+    material: 'Gold Plated',
+    occasion: 'Wedding Wear',
+    images: [
+      'https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=600&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1512413914488-842270929bf5?q=80&w=600&auto=format&fit=crop'
+    ],
+    rating: 4.7,
+    reviewsCount: 41,
+    stock: 12,
+    isBestSeller: false,
+    isNewArrival: true,
+    specifications: {
+      Weight: '15 grams',
+      Size: 'Standard',
+      BaseMetal: 'Brass',
+      Gemstone: 'Kundan',
+      Warranty: '6 Months Polish Warranty'
+    },
+    reviews: []
+  },
+  {
+    id: 'p13',
+    name: 'Polki Kundan Bangle Set',
+    description: 'A set of two exquisite Polki Kundan bangles featuring intricate meenakari work on the inside and a rich 22K gold polish on the outside.',
+    price: 3499,
+    mrp: 5999,
+    discount: 41,
+    category: 'Bangles',
+    material: '22K Gold Plated',
+    occasion: 'Festive Wear',
+    images: [
+      'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=600&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=600&auto=format&fit=crop'
+    ],
+    rating: 4.8,
+    reviewsCount: 78,
+    stock: 8,
+    isBestSeller: true,
+    isNewArrival: false,
+    specifications: {
+      Weight: '45 grams (Pair)',
+      Size: '2.4, 2.6, 2.8 Available',
+      BaseMetal: 'Brass',
+      Gemstone: 'Polki Kundan',
+      Warranty: '1 Year Warranty'
     },
     reviews: []
   }

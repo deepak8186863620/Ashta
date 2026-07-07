@@ -428,7 +428,7 @@ export default function App() {
       title: "Monsoon Sale Live",
       subtitle: "BUY 4 AT ₹2999",
       desc: "Refresh your jewelry box with our exclusive monsoon offers. Waterproof, sweat-proof, and tarnish-free styles for every day.",
-      image: "/hero1.jpg",
+      image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1600&auto=format&fit=crop",
       cta: "Shop The Sale",
       category: "Necklaces"
     },
@@ -436,7 +436,7 @@ export default function App() {
       title: "THE 999 SALE",
       subtitle: "BIGGEST PRICE DROP",
       desc: "Demifine sale is here. Shop our best-selling rings, earrings, and chains at a flat ₹999. Hurry, ends soon!",
-      image: "/hero2.jpg",
+      image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1600&auto=format&fit=crop",
       cta: "Shop Flat ₹999",
       category: "Earrings"
     },
@@ -444,7 +444,7 @@ export default function App() {
       title: "PLAY Collection",
       subtitle: "NEW ARRIVALS",
       desc: "Discover fun, playful, and versatile pieces to stack and layer. Featuring 9KT Fine Gold and 925 Sterling Silver.",
-      image: "/hero3.jpg",
+      image: "https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=1600&auto=format&fit=crop",
       cta: "Explore PLAY",
       category: "Bracelets"
     }
@@ -603,7 +603,7 @@ export default function App() {
                     <button onClick={() => handleNavigate('shop')} className="text-[11px] font-semibold uppercase tracking-wider text-black hover:opacity-50 transition-opacity underline underline-offset-4">View all</button>
                   </div>
                   <div className="pal-scroll-track">
-                    {products.filter(p => p.category === 'Necklaces').concat(products.slice(0,3)).map((p, i) => (
+                    {products.filter(p => p.category === 'Necklaces').map((p, i) => (
                       <div key={`${p.id}-${i}`} style={{ minWidth: '210px', maxWidth: '230px' }} className="shrink-0">
                         <ProductCard product={p} onViewDetails={(id) => handleNavigate('product', id)} onToggleWishlist={handleToggleWishlist} isWishlisted={wishlist.includes(p.id)} onAddToCart={(p) => handleAddToCart(p)} />
                       </div>
@@ -612,27 +612,20 @@ export default function App() {
                 </div>
               </div>
 
-              {/* â”€â”€ GIFT BANNER â”€â”€ */}
+              {/* ── NEW GIFT COMBOS BANNER ── */}
               <div className="w-full py-10 px-4 md:px-8 border-b border-gray-100">
-                <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {[
-                    { title: 'Gifts For Her', img: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=700', bg: '#F5F0EB' },
-                    { title: 'Gifts For Him', img: 'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=700', bg: '#EBEBEB' },
-                  ].map((item, i) => (
-                    <div key={i} onClick={() => handleNavigate('shop')} className="relative cursor-pointer overflow-hidden group" style={{ height: '280px', background: item.bg }}>
-                      <img
-                        src={item.img}
-                        alt={item.title}
-                        referrerPolicy="no-referrer"
-                        className="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:scale-105 transition-transform duration-500"
-                      />
-                      <div className="absolute inset-0 flex flex-col items-center justify-center gap-3">
-                        <p className="text-[9px] font-bold uppercase tracking-widest text-black">Shop by Recipient</p>
-                        <h3 className="font-serif font-bold text-black text-3xl">{item.title}</h3>
-                        <button className="btn-outline text-[10px] mt-1">Shop Now</button>
-                      </div>
-                    </div>
-                  ))}
+                <div 
+                  className="max-w-6xl mx-auto relative overflow-hidden cursor-pointer group rounded-sm bg-gray-50" 
+                  onClick={() => handleNavigate('shop')}
+                >
+                  <img 
+                    src="/gift-combos-banner.png" 
+                    alt="Gift Combos Flat 50% Off"
+                    className="w-full h-auto object-contain group-hover:scale-[1.02] transition-transform duration-700"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?q=80&w=1200&auto=format&fit=crop';
+                    }}
+                  />
                 </div>
               </div>
 
@@ -644,7 +637,7 @@ export default function App() {
                     <button onClick={() => handleNavigate('shop')} className="text-[11px] font-semibold uppercase tracking-wider text-black hover:opacity-50 transition-opacity underline underline-offset-4">View all</button>
                   </div>
                   <div className="pal-scroll-track">
-                    {products.filter(p => p.category === 'Bracelets').concat(products.slice(0,4)).map((p, i) => (
+                    {products.filter(p => p.category === 'Bracelets').map((p, i) => (
                       <div key={`${p.id}-b-${i}`} style={{ minWidth: '210px', maxWidth: '230px' }} className="shrink-0">
                         <ProductCard product={p} onViewDetails={(id) => handleNavigate('product', id)} onToggleWishlist={handleToggleWishlist} isWishlisted={wishlist.includes(p.id)} onAddToCart={(p) => handleAddToCart(p)} />
                       </div>
@@ -661,7 +654,7 @@ export default function App() {
                     <button onClick={() => handleNavigate('shop')} className="text-[11px] font-semibold uppercase tracking-wider text-black hover:opacity-50 transition-opacity underline underline-offset-4">View all</button>
                   </div>
                   <div className="pal-scroll-track">
-                    {products.filter(p => p.category === 'Earrings').concat(products.slice(0,4)).map((p, i) => (
+                    {products.filter(p => p.category === 'Earrings').map((p, i) => (
                       <div key={`${p.id}-e-${i}`} style={{ minWidth: '210px', maxWidth: '230px' }} className="shrink-0">
                         <ProductCard product={p} onViewDetails={(id) => handleNavigate('product', id)} onToggleWishlist={handleToggleWishlist} isWishlisted={wishlist.includes(p.id)} onAddToCart={(p) => handleAddToCart(p)} />
                       </div>
@@ -721,6 +714,49 @@ export default function App() {
                       <p className="text-[10px] text-gray-400 leading-relaxed">{b.desc}</p>
                     </div>
                   ))}
+                </div>
+              </div>
+
+              {/* ── SPOTTED ON ACTRESSES BANNER ── */}
+              <div className="w-full py-12 px-4 md:px-8 border-b border-gray-100 bg-white">
+                <div className="max-w-6xl mx-auto relative overflow-hidden group" style={{ height: '400px' }}>
+                  <img 
+                    src="https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1600&auto=format&fit=crop" 
+                    alt="Spotted Shopping at ASHTA"
+                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent flex items-center px-10 md:px-16">
+                    <div className="max-w-md text-white flex flex-col gap-4">
+                      <span className="text-[10px] font-bold tracking-[0.25em] uppercase text-white/80">
+                        Celebrity Style
+                      </span>
+                      <h2 className="font-serif font-bold text-4xl md:text-5xl leading-tight">
+                        Spotted With ASHTA Bags
+                      </h2>
+                      <p className="text-sm text-white/90 leading-relaxed">
+                        Join your favorite stars and upgrade your jewelry wardrobe. Walk the high street with our premium Demifine pieces.
+                      </p>
+                      <div className="mt-4">
+                        <button onClick={() => handleNavigate('shop')} className="px-8 py-3 text-[11px] font-bold uppercase tracking-widest bg-white text-black hover:bg-gray-100 transition-colors">
+                          Shop Their Looks
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* ── CURATED MOMENTS BANNER ── */}
+              <div className="w-full py-12 px-4 md:px-8 border-b border-gray-100 bg-white">
+                <div className="max-w-6xl mx-auto relative overflow-hidden group cursor-pointer rounded-sm bg-gray-50" onClick={() => handleNavigate('shop')}>
+                  <img 
+                    src="/curated-moments.png" 
+                    alt="ASHTA Perfectly Curated for Every Moment"
+                    className="w-full h-auto object-contain group-hover:scale-[1.02] transition-transform duration-700"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?q=80&w=1200&auto=format&fit=crop';
+                    }}
+                  />
                 </div>
               </div>
 
