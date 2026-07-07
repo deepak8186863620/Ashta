@@ -1,0 +1,6 @@
+{
+  "name": "Aurelia Luxe",
+  "description": "Premium D2C jewelry platform selling exquisite gold-plated, sterling silver, and fashion-forward designs with a modern storefront, checkout flow, and custom styling guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
