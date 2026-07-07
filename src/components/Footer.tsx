@@ -1,5 +1,5 @@
 /**
- * Footer - Palmonas exact replica
+ * Footer - ASHTA exact replica
  */
 import React, { useState } from 'react';
 
@@ -54,7 +54,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div className="col-span-2 md:col-span-1 flex flex-col gap-5">
             <div>
               <div className="font-serif font-bold text-black italic" style={{ fontSize: '22px', letterSpacing: '0.1em' }}>
-                PALMONAS
+                ASHTA
               </div>
               <p className="text-xs text-gray-500 mt-3 leading-relaxed">
                 Demifine® Jewellery — 18k thick Gold Plated. Waterproof, tarnishproof, hypoallergenic.
@@ -90,7 +90,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             </div>
             {/* Social */}
             <div className="flex gap-4">
-              <a href="https://instagram.com/palmonas" target="_blank" rel="noopener noreferrer" className="text-xs text-black hover:opacity-50 font-semibold uppercase tracking-wider">Instagram</a>
+              <a href="https://instagram.com/ASHTA" target="_blank" rel="noopener noreferrer" className="text-xs text-black hover:opacity-50 font-semibold uppercase tracking-wider">Instagram</a>
               <a href="#" className="text-xs text-black hover:opacity-50 font-semibold uppercase tracking-wider">Facebook</a>
             </div>
           </div>
@@ -102,7 +102,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               {[
                 'Shipping & Delivery Policy',
                 'Return & Exchange Policy',
-                'Palmonas Rewards Policy',
+                'ASHTA Rewards Policy',
                 'Lifetime Warranty Policy',
                 'Lifetime BuyBack Policy',
                 'Payment Policy',
@@ -174,7 +174,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
       {/* Bottom Bar */}
       <div className="bg-black text-white py-4 px-4 md:px-8">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-3 text-[10px]">
-          <span className="text-gray-400">© 2026 Palmonas. All rights reserved.</span>
+          <span className="text-gray-400">© 2026 ASHTA. All rights reserved.</span>
           <div className="flex items-center gap-4">
             <div className="flex gap-2 items-center">
               <span className="text-gray-400">Secure Payments:</span>

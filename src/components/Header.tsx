@@ -1,5 +1,5 @@
 /**
- * Header - Palmonas exact replica
+ * Header - ASHTA exact replica
  */
 import React, { useState, useEffect, useRef } from 'react';
 import { Search, Heart, User, ShoppingBag, Menu, X, ChevronDown } from 'lucide-react';
@@ -123,7 +123,7 @@ export const Header: React.FC<HeaderProps> = ({
               className="font-serif font-bold text-black"
               style={{ fontSize: '26px', letterSpacing: '0.12em', fontStyle: 'italic' }}
             >
-              PALMONAS
+              ASHTA
             </span>
           </div>
         </div>

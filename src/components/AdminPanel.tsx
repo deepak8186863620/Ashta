@@ -129,7 +129,7 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({
           <span className="text-xs font-mono uppercase text-brand-primary font-semibold tracking-widest">
             Manager Control Deck
           </span>
-          <h1 className="text-2xl font-serif font-bold text-brand-dark mt-1">Palmonas Store Administration</h1>
+          <h1 className="text-2xl font-serif font-bold text-brand-dark mt-1">ASHTA Store Administration</h1>
         </div>
 
         {/* Tab selection */}

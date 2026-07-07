@@ -1,4 +1,4 @@
-﻿/**
+/**
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
@@ -108,7 +108,7 @@ export default function App() {
           items: [
             {
               productId: 'p1',
-              productName: 'Palmonas 18K Gold Plated Solitaire Pendant',
+              productName: 'ASHTA 18K Gold Plated Solitaire Pendant',
               price: 1299,
               quantity: 1,
               image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=600'
@@ -426,25 +426,25 @@ export default function App() {
   const HERO_SLIDES = [
     {
       title: "Monsoon Sale Live",
-      subtitle: "BUY 4 AT â‚¹2999",
+      subtitle: "BUY 4 AT ₹2999",
       desc: "Refresh your jewelry box with our exclusive monsoon offers. Waterproof, sweat-proof, and tarnish-free styles for every day.",
-      image: "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?q=80&w=1200",
+      image: "/hero1.jpg",
       cta: "Shop The Sale",
       category: "Necklaces"
     },
     {
       title: "THE 999 SALE",
       subtitle: "BIGGEST PRICE DROP",
-      desc: "Demifine sale is here. Shop our best-selling rings, earrings, and chains at a flat â‚¹999. Hurry, ends soon!",
-      image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1200",
-      cta: "Shop Flat â‚¹999",
+      desc: "Demifine sale is here. Shop our best-selling rings, earrings, and chains at a flat ₹999. Hurry, ends soon!",
+      image: "/hero2.jpg",
+      cta: "Shop Flat ₹999",
       category: "Earrings"
     },
     {
       title: "PLAY Collection",
       subtitle: "NEW ARRIVALS",
       desc: "Discover fun, playful, and versatile pieces to stack and layer. Featuring 9KT Fine Gold and 925 Sterling Silver.",
-      image: "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?q=80&w=1200",
+      image: "/hero3.jpg",
       cta: "Explore PLAY",
       category: "Bracelets"
     }
@@ -683,17 +683,17 @@ export default function App() {
                   </div>
                   <div className="flex flex-col gap-5">
                     <div>
-                      <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-3">The Palmonas Story</p>
+                      <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-3">The ASHTA Story</p>
                       <h2 className="font-serif font-bold text-black leading-tight" style={{ fontSize: '36px' }}>
                         Because You Deserve To Shine
                       </h2>
                     </div>
                     <p className="text-sm text-gray-500 leading-relaxed">
-                      At Palmonas, we create jewellery that's made to be worn â€” every day and on the days that matter most. It's premium in quality, thoughtful in design, and priced so it feels right.
+                      At ASHTA, we create jewellery that's made to be worn â€” every day and on the days that matter most. It's premium in quality, thoughtful in design, and priced so it feels right.
                     </p>
                     <blockquote className="border-l-2 border-black pl-5">
                       <p className="font-serif italic text-sm text-gray-700 leading-relaxed">
-                        "A lot of us find real gold too expensive â€” and we don't want our jewellery locked away. At the same time, imitation jewellery fades, breaks, and doesn't last. So at Palmonas, we're building something in the middle â€” a new category called DemifineÂ®."
+                        "A lot of us find real gold too expensive â€” and we don't want our jewellery locked away. At the same time, imitation jewellery fades, breaks, and doesn't last. So at ASHTA, we're building something in the middle â€” a new category called DemifineÂ®."
                       </p>
                       <footer className="text-[10px] font-bold uppercase tracking-widest text-black mt-3">â€” Shraddha Kapoor</footer>
                     </blockquote>
@@ -732,7 +732,7 @@ export default function App() {
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                     {[
-                      { name: 'Amila M.', review: "They are soooo pretty. I always wished to have such earrings in real gold, but gold is sooo expensive now. So i am glad i stumbled into Palmonas. Thank you and keep up the awesome work.", product: 'Golden Heart Love Hoops' },
+                      { name: 'Amila M.', review: "They are soooo pretty. I always wished to have such earrings in real gold, but gold is sooo expensive now. So i am glad i stumbled into ASHTA. Thank you and keep up the awesome work.", product: 'Golden Heart Love Hoops' },
                       { name: 'Deepali B.', review: "Its the exact product shown in the image. Great for styling in different occasion and everyday use too.", product: 'Chevron Ring' },
                       { name: 'Meenakshi', review: "Super quality I love the product very much â¤ï¸", product: 'Sarvani Mangalsutra Bracelet' },
                     ].map((rev, i) => (
@@ -1231,7 +1231,7 @@ export default function App() {
                   </div>
                   <h2 className="text-xl md:text-2xl font-serif font-bold text-slate-900">Your Order is Confirmed!</h2>
                   <p className="text-xs text-slate-500 max-w-md leading-relaxed">
-                    Thank you for shopping with Palmonas, <span className="font-bold text-slate-800">{placedOrder.customerName}</span>. Your luxury parcel is being packed by our concierge under strict sanitary guidelines.
+                    Thank you for shopping with ASHTA, <span className="font-bold text-slate-800">{placedOrder.customerName}</span>. Your luxury parcel is being packed by our concierge under strict sanitary guidelines.
                   </p>
 
                   <div className="bg-slate-50 rounded-2xl p-5 border border-slate-100 text-left w-full text-xs font-mono flex flex-col gap-2.5">
@@ -1489,7 +1489,7 @@ export default function App() {
                     <Sparkles className="w-6 h-6 fill-amber-100" />
                   </div>
                   <div>
-                    <h2 className="text-lg font-serif font-bold text-slate-900">Palmonas Member Portal</h2>
+                    <h2 className="text-lg font-serif font-bold text-slate-900">ASHTA Member Portal</h2>
                     <p className="text-xs text-slate-400 mt-1">Access your saved wishlist, trace deliveries, and manage address registries.</p>
                   </div>
 
@@ -1654,16 +1654,16 @@ export default function App() {
               exit={{ opacity: 0 }}
               className="max-w-4xl mx-auto px-6 py-12 flex flex-col gap-6 bg-white border border-slate-100 p-8 rounded-3xl mt-8 shadow-xs leading-relaxed"
             >
-              <span className="text-[10px] font-mono tracking-widest text-amber-700 uppercase font-semibold text-center">About Palmonas</span>
+              <span className="text-[10px] font-mono tracking-widest text-amber-700 uppercase font-semibold text-center">About ASHTA</span>
               <h1 className="text-3xl font-serif font-bold text-center text-slate-900 leading-tight">The Heritage of Waterproof Luxury</h1>
               <p className="text-xs text-slate-500 mt-2">
-                Palmonas was founded with a humble purpose: creating fine jewelry designed to be loved, worn, and lived in. We noticed a major disparity in the jewelry landscape â€” beautiful designs either came at a prohibitive price point in solid 22k gold, or tarnished and turned skin green within three wears if bought from fashion outlets.
+                ASHTA was founded with a humble purpose: creating fine jewelry designed to be loved, worn, and lived in. We noticed a major disparity in the jewelry landscape â€” beautiful designs either came at a prohibitive price point in solid 22k gold, or tarnished and turned skin green within three wears if bought from fashion outlets.
               </p>
               <p className="text-xs text-slate-500">
                 Our metallurgical team researched modern vapor plating technology to solve this. Using **PVD (Physical Vapor Deposition)**, we bond certified 18K Yellow Gold or Rhodium-finished 925 Sterling Silver directly onto robust surgical stainless steel and premium nickel-free jeweler's brass cores. This process molecularly anchors the precious gold layer, yielding a finish that is 10 times thicker and 50 times more tarnish-resistant than standard flash electroplating.
               </p>
               <p className="text-xs text-slate-500 font-semibold text-amber-900 bg-amber-50/50 p-4 rounded-xl border border-amber-100/40">
-                âœ¨ "Shower in it, swim in it, sweat in it. Your Palmonas pieces handle salt-water, chlorine, soaps, and perfumes with ease. We back every design with a lifetime tarnish-free color warranty."
+                âœ¨ "Shower in it, swim in it, sweat in it. Your ASHTA pieces handle salt-water, chlorine, soaps, and perfumes with ease. We back every design with a lifetime tarnish-free color warranty."
               </p>
             </motion.div>
           )}
@@ -1687,7 +1687,7 @@ export default function App() {
                 <div className="flex flex-col gap-4 mt-6 text-xs text-slate-600">
                   <div className="flex items-center gap-3">
                     <Mail className="w-4 h-4 text-amber-700" />
-                    <span>concierge@palmonas.com</span>
+                    <span>concierge@ASHTA.com</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Phone className="w-4 h-4 text-amber-700" />
@@ -1759,7 +1759,7 @@ export default function App() {
               <div className="flex flex-col gap-5 text-xs text-slate-600 divide-y divide-slate-100">
                 {[
                   { q: "Is the gold-plated jewelry really waterproof?", a: "Yes! Unlike standard jewelry plated with cheap flash-gold over nickel, our products use advanced PVD deposition techniques. This anchors premium 18K yellow gold molecularly onto medical-grade stainless steel cores. It will not fade or rub off during showers, beach outings, swimming or intense workouts." },
-                  { q: "What is your warranty policy?", a: "We cover all color-fading, tarnish, or structural gemstone defects with a lifetime warranty. If your item oxidizes, simply contact concierge@palmonas.com with your Order ID, and we will dispatch a brand-new replacement parcel." },
+                  { q: "What is your warranty policy?", a: "We cover all color-fading, tarnish, or structural gemstone defects with a lifetime warranty. If your item oxidizes, simply contact concierge@ASHTA.com with your Order ID, and we will dispatch a brand-new replacement parcel." },
                   { q: "How long does shipping take?", a: "We ship all prepaid orders for free within 24 hours. Metro deliveries across India (Delhi NCR, Mumbai, Bengaluru) typically arrive in 2-3 business days. Regional areas take 4-5 business days." },
                   { q: "What is your return policy?", a: "We offer an absolute hassle-free, no-questions-asked 7-day return policy. If you aren't completely in love with your pieces, let us know and we will arrange a reverse pickup from your address at no charge. A full refund or store credit will be dispatched instantly." }
                 ].map((faq, idx) => (
@@ -1782,7 +1782,7 @@ export default function App() {
               className="max-w-4xl mx-auto px-6 py-12 flex flex-col gap-6 bg-white border border-slate-100 p-8 rounded-3xl mt-8 shadow-xs"
             >
               <h1 className="text-2xl font-serif font-bold text-slate-900 border-b border-slate-50 pb-3">Our Boutique Showrooms</h1>
-              <p className="text-xs text-slate-400">Experience Palmonas in person. Visit our experiential luxury bars to touch, stack, and customize your orders.</p>
+              <p className="text-xs text-slate-400">Experience ASHTA in person. Visit our experiential luxury bars to touch, stack, and customize your orders.</p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
                 <div className="p-5 border border-amber-50 bg-amber-50/10 rounded-2xl flex flex-col gap-2">
@@ -1812,7 +1812,7 @@ export default function App() {
         title="Open AI Gifting Stylist"
       >
         <Sparkles className="w-5 h-5 text-brand-primary fill-brand-primary group-hover:rotate-12 transition-transform" />
-        <span className="text-xs font-bold font-serif hidden md:inline tracking-wider">Palmonas AI Concierge</span>
+        <span className="text-xs font-bold font-serif hidden md:inline tracking-wider">ASHTA AI Concierge</span>
       </button>
 
       {/* 3. Footer */}

@@ -45,7 +45,7 @@ export const AIStylist: React.FC<AIStylistProps> = ({
     {
       id: 'init',
       role: 'model',
-      text: "Welcome to Palmonas. I am your personal jewelry stylist and gifting curator, powered by Google Gemini. Tell me about your occasion, outfit, budget, or gift recipient, and I will hand-select the perfect tarnish-free designs for you!"
+      text: "Welcome to ASHTA. I am your personal jewelry stylist and gifting curator, powered by Google Gemini. Tell me about your occasion, outfit, budget, or gift recipient, and I will hand-select the perfect tarnish-free designs for you!"
     }
   ]);
   const [inputValue, setInputValue] = useState('');
@@ -154,7 +154,7 @@ export const AIStylist: React.FC<AIStylistProps> = ({
               <Sparkles className="w-5 h-5 animate-pulse" />
             </div>
             <div>
-              <h3 className="text-sm font-bold font-serif tracking-wide">Palmonas AI Gifting Concierge</h3>
+              <h3 className="text-sm font-bold font-serif tracking-wide">ASHTA AI Gifting Concierge</h3>
               <p className="text-[10px] text-brand-bg/80 font-mono">Real-time styling guided by Gemini</p>
             </div>
           </div>
@@ -257,7 +257,7 @@ export const AIStylist: React.FC<AIStylistProps> = ({
                   <div className="w-2 h-2 bg-brand-primary rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
                   <div className="w-2 h-2 bg-brand-primary rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
                 </div>
-                <span className="text-[10px] font-mono text-brand-light">Palmonas Stylist is curating...</span>
+                <span className="text-[10px] font-mono text-brand-light">ASHTA Stylist is curating...</span>
               </div>
             </div>
           )}

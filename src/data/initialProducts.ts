@@ -8,7 +8,7 @@ import { Product } from '../types';
 export const INITIAL_PRODUCTS: Product[] = [
   {
     id: 'p1',
-    name: 'Palmonas 18K Gold Plated Solitaire Pendant',
+    name: 'ASHTA 18K Gold Plated Solitaire Pendant',
     description: 'An elegant, tarnish-free 18K gold-plated pendant featuring a brilliant AAA-grade cubic zirconia solitaire suspended from an adjustable fine cable chain. Perfect for everyday wear, stacking, or an elegant dinner date.',
     price: 1299,
     mrp: 2499,
@@ -17,8 +17,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     material: '18K Gold Plated',
     occasion: 'Daily Wear',
     images: [
-      'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=600&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?q=80&w=600&auto=format&fit=crop'
+      'https://cdn.shopify.com/s/files/1/0613/1400/7297/files/Shopify_0e9f0ff1-9d95-4195-88db-180319deee0d.jpg?v=1783334983',
+      'https://cdn.shopify.com/s/files/1/0613/1400/7297/files/ERS0118-model-1.jpg?v=1782561515'
     ],
     rating: 4.8,
     reviewsCount: 124,
@@ -64,8 +64,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     material: '925 Sterling Silver',
     occasion: 'Office Wear',
     images: [
-      'https://images.unsplash.com/photo-1635767790038-33d964f2293b?q=80&w=600&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=600&auto=format&fit=crop'
+      'https://cdn.shopify.com/s/files/1/0613/1400/7297/files/Shopify_31cf4618-54b7-475c-b12e-654a703e8406.jpg?v=1783334261',
+      'https://cdn.shopify.com/s/files/1/0613/1400/7297/files/ERS0111_00002_compressed.jpg?v=1782121413'
     ],
     rating: 4.6,
     reviewsCount: 89,
@@ -93,7 +93,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'p3',
-    name: 'Palmonas Signature Diamond Choker Set',
+    name: 'ASHTA Signature Diamond Choker Set',
     description: 'An exquisite, modern choker set embellished with brilliant lab-grown diamond simulants, sleek baguette crystals, and delicate freshwater pearls, paired with matching drop earrings. A professional, high-end set designed for formal galas and luxury celebrations.',
     price: 4599,
     mrp: 8999,
@@ -102,8 +102,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     material: '925 Sterling Silver',
     occasion: 'Party',
     images: [
-      'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=600&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1615655406736-b37c4fabf923?q=80&w=600&auto=format&fit=crop'
+      'https://cdn.shopify.com/s/files/1/0613/1400/7297/files/Shopify_1bafdd10-84bb-4f17-bb3b-ffd4e860240a.jpg?v=1783334392',
+      'https://cdn.shopify.com/s/files/1/0613/1400/7297/files/ERS0113_00002_compressed.jpg?v=1782121339'
     ],
     rating: 4.9,
     reviewsCount: 42,
@@ -140,8 +140,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     material: 'Rose Gold Finish',
     occasion: 'Party',
     images: [
-      'https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=600&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1603561591411-07134e71a2a9?q=80&w=600&auto=format&fit=crop'
+      'https://cdn.shopify.com/s/files/1/0613/1400/7297/files/Shopify_6b47d7f3-b071-45ab-8a7b-e3c7b505b33f.jpg?v=1783334452',
+      'https://cdn.shopify.com/s/files/1/0613/1400/7297/files/ERS0114_00002_compressed.jpg?v=1782121310'
     ],
     rating: 4.5,
     reviewsCount: 74,
@@ -169,7 +169,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'p5',
-    name: 'Palmonas Contemporary Link Necklace',
+    name: 'ASHTA Contemporary Link Necklace',
     description: 'A sleek, high-polish link necklace crafted in tarnish-free 18K gold plating over a premium sterling silver base. Features a clean geometric design built for the modern fashion-forward individual.',
     price: 1599,
     mrp: 2999,
@@ -178,8 +178,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     material: '18K Gold Plated',
     occasion: 'Daily Wear',
     images: [
-      'https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?q=80&w=600&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=600&auto=format&fit=crop'
+      'https://cdn.shopify.com/s/files/1/0613/1400/7297/files/Shopify_c2294f50-aa68-4828-a787-9ddd52412666.jpg?v=1783339350',
+      'https://cdn.shopify.com/s/files/1/0613/1400/7297/files/RGS0036-model-1-1.jpg?v=1782481923'
     ],
     rating: 4.7,
     reviewsCount: 56,
@@ -216,8 +216,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     material: '925 Sterling Silver',
     occasion: 'Party',
     images: [
-      'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?q=80&w=600&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=600&auto=format&fit=crop'
+      'https://cdn.shopify.com/s/files/1/0613/1400/7297/files/BR9YG0019_05_Y_1.png?v=1771500516',
+      'https://cdn.shopify.com/s/files/1/0613/1400/7297/files/BR9YG0019-model-2_compressed.jpg?v=1771500516'
     ],
     rating: 4.8,
     reviewsCount: 93,
@@ -301,7 +301,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'p9',
-    name: 'Palmonas Geometric Twist Cuff',
+    name: 'ASHTA Geometric Twist Cuff',
     description: 'An architecturally inspired twist cuff bracelet crafted in durable stainless steel with thick, tarnish-free 18K gold plating. Features a contemporary open silhouette that fits comfortably on any wrist.',
     price: 1199,
     mrp: 2199,

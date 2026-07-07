@@ -1,5 +1,5 @@
 /**
- * ProductCard - Palmonas style
+ * ProductCard - ASHTA style
  */
 import React from 'react';
 import { Heart, ShoppingBag, Star } from 'lucide-react';
